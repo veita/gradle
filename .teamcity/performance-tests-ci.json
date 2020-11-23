@@ -4,12 +4,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -17,7 +17,7 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux", "windows" ]
+        "per_day" : [ "linux", "windows" ]
       }
     } ]
   }, {
@@ -25,12 +25,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -38,12 +38,12 @@
     "groups" : [ {
       "testProject" : "mediumJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -51,12 +51,12 @@
     "groups" : [ {
       "testProject" : "mediumJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -64,12 +64,12 @@
     "groups" : [ {
       "testProject" : "mediumJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -77,12 +77,12 @@
     "groups" : [ {
       "testProject" : "mediumJavaMultiProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -90,22 +90,22 @@
     "groups" : [ {
       "testProject" : "bigNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "multiNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "smallNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -113,17 +113,17 @@
     "groups" : [ {
       "testProject" : "bigPCHNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumPCHNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "smallPCHNative",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -131,12 +131,12 @@
     "groups" : [ {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidJavaBuild",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -144,12 +144,12 @@
     "groups" : [ {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidJavaBuild",
       "coverage" : {
-        "experiment" : [ "linux" ]
+        "per_week" : [ "linux" ]
       }
     } ]
   }, {
@@ -157,7 +157,7 @@
     "groups" : [ {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "experiment" : [ "linux", "macOs", "windows" ]
+        "per_week" : [ "linux", "macOs", "windows" ]
       }
     } ]
   }, {
@@ -165,7 +165,7 @@
     "groups" : [ {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -173,7 +173,7 @@
     "groups" : [ {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -181,17 +181,17 @@
     "groups" : [ {
       "testProject" : "k9AndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -199,7 +199,7 @@
     "groups" : [ {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -207,12 +207,12 @@
     "groups" : [ {
       "testProject" : "k9AndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -220,12 +220,12 @@
     "groups" : [ {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -233,7 +233,7 @@
     "groups" : [ {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -241,12 +241,12 @@
     "groups" : [ {
       "testProject" : "k9AndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeAndroidBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -255,7 +255,7 @@
       "testProject" : "largeJavaMultiProject",
       "comment" : "We only test the multi-project here since for the monolithic project we would have no cache hits. This would mean we actually would test incremental compilation.",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -264,7 +264,7 @@
       "testProject" : "largeJavaMultiProject",
       "comment" : "We only test the multi-project here since for the monolithic project we would have no cache hits. This would mean we actually would test incremental compilation.",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -272,12 +272,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -285,12 +285,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -298,12 +298,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -311,12 +311,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -324,12 +324,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -337,17 +337,17 @@
     "groups" : [ {
       "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "bigCppMulti",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "bigNative",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -355,12 +355,12 @@
     "groups" : [ {
       "testProject" : "bigSwiftApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumSwiftMulti",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -368,7 +368,7 @@
     "groups" : [ {
       "testProject" : "archivePerformanceProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -376,7 +376,7 @@
     "groups" : [ {
       "testProject" : "archivePerformanceProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -384,7 +384,7 @@
     "groups" : [ {
       "testProject" : "archivePerformanceProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -392,7 +392,7 @@
     "groups" : [ {
       "testProject" : "generateLotsOfDeprecationWarnings",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -400,7 +400,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -408,7 +408,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -416,12 +416,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     } ]
   }, {
@@ -429,12 +429,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     } ]
   }, {
@@ -442,12 +442,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     } ]
   }, {
@@ -455,12 +455,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     }, {
       "testProject" : "santaTrackerAndroidBuild",
       "coverage" : {
-        "test" : [ "linux", "windows", "macOs" ]
+        "per_commit" : [ "linux", "windows", "macOs" ]
       }
     } ]
   }, {
@@ -468,12 +468,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -481,12 +481,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -494,7 +494,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -502,7 +502,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -510,7 +510,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -518,7 +518,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -526,7 +526,7 @@
     "groups" : [ {
       "testProject" : "excludeRuleMergingBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -534,7 +534,7 @@
     "groups" : [ {
       "testProject" : "springBootApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -542,7 +542,7 @@
     "groups" : [ {
       "testProject" : "springBootApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -550,17 +550,17 @@
     "groups" : [ {
       "testProject" : "bigNative",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -568,7 +568,7 @@
     "groups" : [ {
       "testProject" : "withVerboseJUnit",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -576,12 +576,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -589,7 +589,7 @@
     "groups" : [ {
       "testProject" : "createLotsOfTasks",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -597,12 +597,12 @@
     "groups" : [ {
       "testProject" : "withVerboseJUnit",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "withVerboseTestNG",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -610,17 +610,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -628,17 +628,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -646,22 +646,22 @@
     "groups" : [ {
       "testProject" : "largeGroovyMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicGroovyProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -669,22 +669,22 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumJavaCompositeBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumJavaPredefinedCompositeBuild",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -692,7 +692,7 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProjectNoBuildSrc",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -700,12 +700,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProjectNoBuildSrc",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "smallJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -713,7 +713,7 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProjectNoBuildSrc",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -721,12 +721,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProjectNoBuildSrc",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "smallJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -734,17 +734,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -752,12 +752,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -765,17 +765,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -783,17 +783,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -801,17 +801,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProjectKotlinDsl",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -819,12 +819,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -832,12 +832,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -845,22 +845,22 @@
     "groups" : [ {
       "testProject" : "largeGroovyMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicGroovyProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -868,12 +868,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -881,12 +881,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -894,17 +894,17 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumJavaMultiProjectWithTestNG",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -912,12 +912,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -925,7 +925,7 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux", "windows" ]
+        "per_commit" : [ "linux", "windows" ]
       }
     } ]
   }, {
@@ -933,12 +933,12 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "largeMonolithicJavaProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -946,7 +946,7 @@
     "groups" : [ {
       "testProject" : "largeJavaMultiProject",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -954,7 +954,7 @@
     "groups" : [ {
       "testProject" : "nativeDependents",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -962,7 +962,7 @@
     "groups" : [ {
       "testProject" : "nativeDependents",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -970,12 +970,12 @@
     "groups" : [ {
       "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
-      "testProject" : "bigCppMulti",
+      "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -983,12 +983,12 @@
     "groups" : [ {
       "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
-      "testProject" : "bigCppMulti",
+      "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -996,12 +996,12 @@
     "groups" : [ {
       "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
-      "testProject" : "bigCppMulti",
+      "testProject" : "bigCppApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -1009,62 +1009,62 @@
     "groups" : [ {
       "testProject" : "bigCppApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "bigCppMulti",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "bigNative",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumCppApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumCppAppWithMacroIncludes",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumCppMulti",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumCppMultiWithMacroIncludes",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumNative",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "multiNative",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "smallCppApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "smallCppMulti",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "smallNative",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -1072,7 +1072,7 @@
     "groups" : [ {
       "testProject" : "manyProjectsNative",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -1080,12 +1080,12 @@
     "groups" : [ {
       "testProject" : "nativeMonolithic",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "nativeMonolithicOverlapping",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -1093,12 +1093,12 @@
     "groups" : [ {
       "testProject" : "nativeMonolithic",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     }, {
       "testProject" : "nativeMonolithicOverlapping",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -1106,7 +1106,7 @@
     "groups" : [ {
       "testProject" : "smallNativeMonolithic",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -1114,7 +1114,7 @@
     "groups" : [ {
       "testProject" : "mediumNativeMonolithic",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -1122,7 +1122,7 @@
     "groups" : [ {
       "testProject" : "mediumNativeMonolithic",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_commit" : [ "linux" ]
       }
     } ]
   }, {
@@ -1130,12 +1130,12 @@
     "groups" : [ {
       "testProject" : "bigSwiftApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumSwiftMulti",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -1143,12 +1143,12 @@
     "groups" : [ {
       "testProject" : "bigSwiftApp",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumSwiftMulti",
       "coverage" : {
-        "test" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   }, {
@@ -1156,12 +1156,12 @@
     "groups" : [ {
       "testProject" : "bigSwiftApp",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     }, {
       "testProject" : "mediumSwiftMulti",
       "coverage" : {
-        "slow" : [ "linux" ]
+        "per_day" : [ "linux" ]
       }
     } ]
   } ]
