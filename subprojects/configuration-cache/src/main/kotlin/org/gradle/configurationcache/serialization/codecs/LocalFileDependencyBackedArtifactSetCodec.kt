@@ -69,7 +69,6 @@ import org.gradle.internal.component.local.model.LocalFileDependencyMetadata
 import org.gradle.internal.component.model.VariantResolveMetadata
 import org.gradle.internal.model.CalculatedValueContainerFactory
 import org.gradle.internal.reflect.Instantiator
-import java.io.File
 
 
 class LocalFileDependencyBackedArtifactSetCodec(
