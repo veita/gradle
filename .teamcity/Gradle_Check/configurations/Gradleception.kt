@@ -33,13 +33,13 @@ class Gradleception(model: CIBuildModel, stage: Stage) : BaseGradleBuildType(mod
     applyDefaults(model, this, ":distributions-full:install", notQuick = true, extraParameters = "-Pgradle_installPath=dogfood-first $buildScanTagForType", extraSteps = {
         localGradle {
             name = "BUILD_WITH_BUILT_GRADLE"
-            tasks = "clean :distributions-full:install"
+            tasks = ":cleanAll :distributions-full:install"
             gradleHome = "%teamcity.build.checkoutDir%/dogfood-first"
             gradleParams = "-Pgradle_installPath=dogfood-second -PignoreIncomingBuildReceipt=true $defaultParameters"
         }
         localGradle {
             name = "QUICKCHECK_WITH_GRADLE_BUILT_BY_GRADLE"
-            tasks = "clean sanityCheck test distributionsIntegTests:forkingIntegTest"
+            tasks = ":cleanAll sanityCheck test distributionsIntegTests:forkingIntegTest"
             gradleHome = "%teamcity.build.checkoutDir%/dogfood-second"
             gradleParams = defaultParameters
         }

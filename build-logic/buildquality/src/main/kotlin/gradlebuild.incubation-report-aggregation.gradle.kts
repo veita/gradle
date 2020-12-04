@@ -1,5 +1,9 @@
 import gradlebuild.incubation.tasks.IncubatingApiAggregateReportTask
 
+plugins {
+    id("base")
+}
+
 val reports by configurations.creating {
     isVisible = false
     isCanBeResolved = false

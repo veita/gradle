@@ -72,7 +72,7 @@ const val failedTestArtifactDestination = ".teamcity/gradle-logs"
 fun BuildType.applyDefaultSettings(os: Os = Os.LINUX, timeout: Int = 30, vcsRoot: String = "Gradle_Branches_GradlePersonalBranches") {
     artifactRules = """
         build/report-* => $failedTestArtifactDestination
-        buildSrc/build/report-* => $failedTestArtifactDestination
+        */build/report-* => $failedTestArtifactDestination
         subprojects/*/build/tmp/test files/** => $failedTestArtifactDestination/test-files
         subprojects/*/build/tmp/test files/** => $failedTestArtifactDestination/test-files
         build/errorLogs/** => $failedTestArtifactDestination/errorLogs

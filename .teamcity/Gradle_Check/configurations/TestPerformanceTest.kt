@@ -48,7 +48,7 @@ class TestPerformanceTest(model: CIBuildModel, stage: Stage) : BaseGradleBuildTy
     fun BuildSteps.adHocPerformanceTest(tests: List<String>) {
         gradleStep(listOf(
             "-PperformanceBaselines=force-defaults",
-            "clean",
+            "cleanAll",
             "performance:${testProject}PerformanceAdHocTest",
             tests.map { """--tests "$it"""" }.joinToString(" "),
             """--warmups 2 --runs 2 --checks none""",

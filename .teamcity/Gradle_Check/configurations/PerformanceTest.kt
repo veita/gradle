@@ -80,7 +80,7 @@ class PerformanceTest(
                     workingDir = os.perfTestWorkingDir
                     gradleParams = (
                         performanceTestCommandLine(
-                            "clean ${performanceTestTaskNames.joinToString(" ") { "$it --channel %performance.channel% ${type.extraParameters}" }}",
+                            ":cleanAll ${performanceTestTaskNames.joinToString(" ") { "$it --channel %performance.channel% ${type.extraParameters}" }}",
                             "%performance.baselines%",
                             extraParameters,
                             os

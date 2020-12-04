@@ -27,6 +27,12 @@ plugins {
     id("gradlebuild.quick-check")                // Local development: Convenience task `quickCheck` for running checkstyle/codenarc only on changed files before commit
 }
 
+tasks.register("cleanAll") {
+    dependsOn(tasks.clean)
+    dependsOn(subprojects.map { "${it.name}:clean" })
+    dependsOn(gradle.includedBuilds.map { it.task(":clean") })
+}
+
 buildscript {
     dependencies {
         constraints {

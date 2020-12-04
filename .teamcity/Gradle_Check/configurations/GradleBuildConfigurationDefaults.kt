@@ -86,7 +86,7 @@ fun BaseGradleBuildType.gradleRunnerStep(model: CIBuildModel, gradleTasks: Strin
     steps {
         gradleWrapper {
             name = "GRADLE_RUNNER"
-            tasks = "clean $gradleTasks"
+            tasks = ":cleanAll $gradleTasks"
             gradleParams = (
                 buildToolGradleParameters(daemon) +
                     this@gradleRunnerStep.buildCache.gradleParameters(os) +
