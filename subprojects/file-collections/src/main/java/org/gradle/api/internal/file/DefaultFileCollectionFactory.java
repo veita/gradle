@@ -324,7 +324,7 @@ public class DefaultFileCollectionFactory implements FileCollectionFactory {
             if (item instanceof FileCollectionInternal) {
                 ((FileCollectionInternal) item).describeContents(formatter);
             } else if (item instanceof ArrayList) {
-                for (Object child : ((List) item)) {
+                for (Object child : (List) item) {
                     appendItem(formatter, child);
                 }
             } else {
