@@ -26,8 +26,5 @@ val testJavaHomePath = providers.gradleProperty(testJavaHomePropertyName).forUse
     .orElse(providers.systemProperty(testJavaHomePropertyName).forUseAtConfigurationTime())
     .orElse(providers.environmentVariable(testJavaHomePropertyName).forUseAtConfigurationTime())
 val testJavaHome = rootProject.layout.projectDirectory.dir(testJavaHomePath)
-val testJavaVersion = providers.gradleProperty(testJavaVersionPropertyName).forUseAtConfigurationTime()
-    .orElse(providers.systemProperty(testJavaVersionPropertyName).forUseAtConfigurationTime())
-    .orElse(providers.environmentVariable(testJavaVersionPropertyName).forUseAtConfigurationTime())
 
-extensions.create<BuildJvms>("buildJvms", javaInstalls, testJavaHome, testJavaVersion)
+extensions.create<BuildJvms>("buildJvms", javaInstalls, testJavaHome)
