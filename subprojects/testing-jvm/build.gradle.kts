@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import gradlebuild.integrationtests.integrationTestUsesSampleDir
 
 plugins {
     id("gradlebuild.distribution.api-java")
@@ -77,7 +76,7 @@ classycle {
     excludePatterns.set(listOf("org/gradle/api/internal/tasks/testing/**"))
 }
 
-tasks.named<Test>("test").configure {
+tasks.test {
     exclude("org/gradle/api/internal/tasks/testing/junit/AJunit*.*")
     exclude("org/gradle/api/internal/tasks/testing/junit/BJunit*.*")
     exclude("org/gradle/api/internal/tasks/testing/junit/ATestClass*.*")
@@ -87,4 +86,4 @@ tasks.named<Test>("test").configure {
     exclude("org/gradle/api/internal/tasks/testing/testng/ATestNGFactoryClass*.*")
 }
 
-integrationTestUsesSampleDir("subprojects/testing-jvm/src/main")
+integTest.usesSamples.set(true)
